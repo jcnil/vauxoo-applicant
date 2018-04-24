@@ -27,7 +27,4 @@ class PrimeClass(object):
         for index in range(1, num_int+1):
             if (num_int % index) == 0:
                 count = count + 1
-        if count == 2:
-            return True
-        else:
-            return False
+        return bool(count == 2)
