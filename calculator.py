@@ -17,7 +17,7 @@ class CalculatorClass(object):
         de los elementos que conforman la lista, al final retorna la suma
         de todos los numeros que conforman la lista
         """
-        sum = 0
+        acum = 0
         for number in num_list:
-            sum = sum + number
-        return sum
+            acum = acum + number
+        return acum
