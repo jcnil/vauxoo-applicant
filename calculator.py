@@ -12,5 +12,5 @@ class CalculatorClass(object):
         """
         Your method documentation here
         """
-        # your calculator code here
+        # your sum code here
         return "not implement yet"  # Remove this dummy line
