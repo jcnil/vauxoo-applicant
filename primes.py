@@ -5,12 +5,15 @@ un método llamado is_prime y que reciba como entrada un número entero
 y que de salida regrese un True o False en boolean (no usar cadenas),
 para saber si sí es un número primo o no lo es, respectivamente.
 """
+
+
 class PrimeClass(object):
     """
     Esta clase contiene el Metodo is_prime, el cual recibe el objeto
     self con el que el accede a los atributos y metodos de la clase PrimeClass,
     este metodo is_prime tambien recibe como parametro de entrada un numero
     """
+
     def is_prime(self, num_int):
         """
         declaro una variable para contar la cantidad de interacciones en que

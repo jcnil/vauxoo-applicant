@@ -4,6 +4,8 @@ Puedes realizar una clase en python llamada calculator_class que
 tenga un método llamado sum y que reciba como entrada una lista de
 numeros numeros y que de salida regrese la suma de los mismos.
 """
+
+
 class CalculatorClass(object):
     """
     Esta clase hereda de object y contiene el Metodo sum,
@@ -17,6 +19,7 @@ class CalculatorClass(object):
         de los elementos que conforman la lista, al final retorna la suma
         de todos los numeros que conforman la lista
         """
+
         acum = 0
         for number in num_list:
             acum = acum + number
