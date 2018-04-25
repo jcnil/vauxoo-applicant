@@ -13,13 +13,13 @@ class CalculatorClass(object):
     metodos de la clase CalculatorClass, este metodo sum tambien
     recibe como parametro de entrada una lista
     """
+    
     def sum(self, num_list):
         """
         Declaro una variable sum que va a almacenar la suma de cada uno
         de los elementos que conforman la lista, al final retorna la suma
         de todos los numeros que conforman la lista
         """
-
         acum = 0
         for number in num_list:
             acum = acum + number
